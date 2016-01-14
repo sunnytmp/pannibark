@@ -1,0 +1,20 @@
+<module>
+	<inherits name="com.google.gwt.user.User"/>
+<!--  	<inherits name="com.google.gwt.user.theme.standard.Standard"/>  -->
+  	<inherits name="com.google.gwt.http.HTTP"/>
+  	<!-- Inherit the UiBinder module.                               -->
+  <inherits name="com.google.gwt.uibinder.UiBinder"/>
+  
+<inherits name="gwtupload.GWTUpload"/>
+  	
+  	<entry-point class="com.riverlog.pig.ui.client.PigLatinEditor"/>  
+  	
+  	<source path='client'/>
+    <source path='shared'/> 	
+    
+   <add-linker name="xsiframe"/>
+<set-configuration-property name="devModeRedirectEnabled" value="true"/>
+<set-property name="compiler.useSourceMaps" value="true"/>
+   
+     
+</module>

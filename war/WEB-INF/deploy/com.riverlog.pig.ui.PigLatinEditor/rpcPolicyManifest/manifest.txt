@@ -1,0 +1,3 @@
+# Module com.riverlog.pig.ui.PigLatinEditor
+# RPC service class, partial path of RPC policy file
+com.riverlog.pig.ui.client.PigJobExecution, E554287B3CF3874B72C3CADC672AD67B.gwt.rpc

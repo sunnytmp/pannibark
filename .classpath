@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WinGrunt_xtralib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WinGrunt_xtralib/servlet-api-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WinGrunt_xtralib/tools.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-fileupload-1.3-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-fileupload-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-fileupload-1.3-tests.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-fileupload-1.3-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/gwtupload-0.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/log4j-1.2.9.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/mail-1.4.2.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/MACBOOKPRO COPY/wingrunt/WebGrunt_lib/piggybank.jar"/>
+	<classpathentry kind="lib" path="C:/ApachePIG/pig-0.11.1/pig.jar"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,2 @@
+serviceClass: com.riverlog.pig.ui.client.LogJobExecution
+path: 237A42127E17A5E31CF4E34744D79CBC.gwt.rpc

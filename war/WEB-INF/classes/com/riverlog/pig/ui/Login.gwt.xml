@@ -1,0 +1,10 @@
+<module>
+   <inherits name="com.google.gwt.user.User"/> 
+<!-- 	<inherits name="com.google.gwt.user.theme.standard.Standard"/>  -->
+	
+  	<entry-point class="com.riverlog.pig.ui.client.Login"/>   
+  	
+ <add-linker name="xsiframe"/>
+<set-configuration-property name="devModeRedirectEnabled" value="true"/>
+<set-property name="compiler.useSourceMaps" value="true"/>
+</module>

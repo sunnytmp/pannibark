@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+	<!-- Default page to serve -->
+	<welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
+	
+  
+ <!-- Servlets THE WebGrunt Actually+-->
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.riverlog.pig.ui.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/com.riverlog.pig.ui.PigLatinEditor/greet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>logServlet</servlet-name>
+    <servlet-class>com.riverlog.pig.ui.server.LoginServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>logServlet</servlet-name>
+    <url-pattern>/com.riverlog.pig.ui.Login/log</url-pattern>
+  </servlet-mapping>
+  
+  <!-- THE SERVLET TO GET THE PIGSCRIPTS  -->
+  
+      <servlet>  
+     <servlet-name>GetPigScriptFilesServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.GetPigScriptFilesServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>GetPigScriptFilesServlet</servlet-name>  
+     <url-pattern>/getpigfiles</url-pattern>  
+    </servlet-mapping>  
+  
+  <!-- Upload File Servlet -->
+  
+  <context-param> 
+    <description>Location to store uploaded file</description> 
+    <param-name>file-upload</param-name> 
+    <param-value>
+         /home/ec2-user/jetty-distribution-9.0.4.v20130625
+     </param-value> 
+</context-param>
+
+   <servlet>  
+     <servlet-name>UploadServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.UploadServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>UploadServlet</servlet-name>  
+     <url-pattern>UploadServlet</url-pattern>  
+    </servlet-mapping>  
+  
+<!-- EMAIL SERVELET MAPPING -->
+  <servlet>  
+     <servlet-name>EmailPigScript</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.EmailPigScript</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>EmailPigScript</servlet-name>  
+     <url-pattern>EmailPigScript</url-pattern>  
+    </servlet-mapping>  
+    
+    <!-- Pig Script SERVELET MAPPING -->
+  <servlet>  
+     <servlet-name>SaveScriptServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.SaveScriptServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>SaveScriptServlet</servlet-name>  
+     <url-pattern>SaveScriptServlet</url-pattern>  
+    </servlet-mapping>  
+    
+    <!-- REGISTRATION SERVLET ALSO SENDING EMAIL CALLING THE SAME EMAIL METHOD -->
+    <servlet>  
+     <servlet-name>RegistrationServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.RegistrationServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>RegistrationServlet</servlet-name>  
+     <url-pattern>/RegistrationServlet</url-pattern>  
+    </servlet-mapping>  
+    
+    
+     <!-- BarPlotPDF SERVLET  -->
+    <servlet>  
+     <servlet-name>FileSavePlotServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.FileSavePlotServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>FileSavePlotServlet</servlet-name>  
+     <url-pattern>FileSavePlotServlet</url-pattern>  
+    </servlet-mapping>  
+    
+     <!-- SUBSCRIPTION VALIDITY SERVLET  -->
+    <servlet>  
+     <servlet-name>CheckSubscriptionServlet</servlet-name>  
+     <servlet-class>com.riverlog.pig.ui.server.CheckSubscriptionServlet</servlet-class>  
+    </servlet>  
+    <servlet-mapping>  
+     <servlet-name>CheckSubscriptionServlet</servlet-name>  
+     <url-pattern>CheckSubscriptionServlet</url-pattern>  
+    </servlet-mapping>  
+    
+    
+</web-app>

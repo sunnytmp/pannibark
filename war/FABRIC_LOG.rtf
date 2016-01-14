@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww27240\viewh15060\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 <userId>00000</userId>\
+</user>\
+\
+POST:/api/web/users/authenticate ~ util.ResultBuilder ~ #*#*#* Header Processing #*#*#\
+POST:/api/web/users/authenticate ~ util.ResultBuilder ~    Header=Content_Type => application/xml\
+POST:/api/web/users/authenticate ~ util.ResultBuilder ~    Header=Authorization => Bearer e79215f2-0010-4a6e-bb04-35a6d4802f3d\
+POST:/api/web/users/authenticate ~ util.ResultBuilder ~    Header=UserId => 00000\
+POST:/api/web/users/authenticate ~ util.ResultBuilder ~    Header=Vimond_Cookie => rememberMe=XekGAMQgXCag4UjAaRPdsDOZGK4GQAEHWTA8aMjIpcCtDRwvb9WlUs4GvLBRiAt04aNTOo5kid64Ok941S5nuqwMtIlw7a1kOVarNXWvOyPR6sTPJt3ltYaKWrW+rXu/vtZ0aTq6MujkzF15BkacH5cFZHOMpE6QVcDp4e2Uyy817LzOXtiz0sempSnoHrDuQwat1lQA5hkaGG43rQkxxkQ960//kN2RfCTfPlXwzozWC4UEgIkNe3fLGfuScq+vCqxUhqzQt0VwEy7JsKf1KWdfO5J0RRvO+a7tK0KapV6qCpJqWIJ4V8NlNRrkOM3WgH/+dgC3+Xumi/P/OsbKC6+v9cGTMHwFHCQCuaZKX9kKFcg/PzkLdwoWp2+46OvMFsEdipKgl8pTCfZVy/x/TgWYDZUjYIRIElOq22QWncop0XmHYIwA+nCaAyjEs6G8RdNeyEuKkiNAF1G5YoqHbtfx/zcwKScfgZdmdjiLOZdK9GfmCRr1rM2/2BHnjYWuQmp4Fg/mjUEGOzS6serWN5mC4nsJfhjT6qvgP9qfof4W7KFL8hfTHanEuYa/9BfodrvZLu0Z86mhvZERIb5+zhaonaQZbcYYiNSZSKz1R3sM+1QLE/VYCnnj0T54hDNPhnwrc69cuL96CWmdbmtrzX/8gKuacQrW32/PXRSVrF+Px3qy8lNlbkcx1zHFf4t5e388Efx814fJ9FYR/zdrbAXbxZxfspgGY/r1+Su2lOFDPO+BynmoWTlXIvUEnQPyhzRG0hs8peaLe4gj6llNAeS13pEruzoS/PJ4zswkIT0=; Path=/api; Max-Age=31536000; Expires=Sat, 31-Oct-2015 11:14:07 GMT; HttpOnly\
+~ application ~ Getting-Instance-of=util.ApiToApiAuthAction\
+~ application ~ Getting-Instance-of=util.MtHttpRequestBuilderAction\
+~ application ~ Getting-Instance-of=util.UserAuthAction\
+~ application ~ Getting-Instance-of=util.MdcInitializer\
+~ application ~ Getting-Instance-of=util.CodeHaleMetricsAction\
+~ util.MdcInitializer ~ Calling_MdcInitializer\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ \
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ #*#*#* Controller Layer Creating Request #*#*#\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ #*#*#* Accept #*#*#\
+GET:/api/web/users/videos/1927 ~ play ~ Unable to parse part of media range header 'application/json'\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ #*#*#* Adding Accept=application/json\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ #*#*#* Headers #*#*#\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Added=SessionToken=YKtEZXwIAj8DQC/Ula5ns5zgnTyJ3F1d5z/Wlbn+65XEBXbzp95z+keE4PwYs+d16sI5+tbkJdcsHZAAKFBeJlO14NVtJrDu0Yw5q9KdPZREXBfPR1oER3fv4BKxJiCHgetEqz0nJeDpy2AOy3oJtcHpGkkB9sfr3a5Qj0wnxo5DY0/VABJJHu095M3HBcDszpsDa8vFe6K9KunQBmeYDP9F9/lkOne0YxFe7mSsE/KwwYU+ucfPEdaEcd2FnY/+6sxOwyT8GIaTgkgeOs6x0LNOwCmPetObsL+1PTxOMQ66mYpIVd9NoYYA8jbYtu2Nbir/YbeERyhXDUF6OWTk7zezP0BC3IPc0dq1gllLP5PQdf/E7GqNric8L0PTbbb+x4lZTYgTelvaxnV31OzZW5uW8zQ4QSfp+XqvUIzviQk= header.size=1\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Added=Connection=close header.size=1\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Skipping Fabric-Debug=true\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Added=Authorization=Bearer e79215f2-0010-4a6e-bb04-35a6d4802f3d header.size=1\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Added=User-Agent=curl/7.35.0 header.size=1\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Skipping Host=localhost:9000\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ #*#*#* QueryParams #*#*#\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ QueryParams=\{code=com.comcast.xmt.core.utils.Option$None@1bcaedac, filterEmptyChannels=com.comcast.xmt.core.utils.Option$None@1bcaedac, videoFormat=com.comcast.xmt.core.utils.Option$None@1bcaedac, appName=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageSize=com.comcast.xmt.core.utils.Option$None@1bcaedac, ids=com.comcast.xmt.core.utils.Option$None@1bcaedac, userEmail=com.comcast.xmt.core.utils.Option$None@1bcaedac, isManipulated=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageNum=com.comcast.xmt.core.utils.Option$None@1bcaedac, userId=com.comcast.xmt.core.utils.Option$None@1bcaedac\}\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request URI=/api/web/users/videos/1927\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request Method=GET\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request Headers=\{Connection=[close], Remote_Address=[127.0.0.1], Authorization=[Bearer e79215f2-0010-4a6e-bb04-35a6d4802f3d], UserAgent=[curl/7.35.0], Accept=[application/json], SessionToken=[YKtEZXwIAj8DQC/Ula5ns5zgnTyJ3F1d5z/Wlbn+65XEBXbzp95z+keE4PwYs+d16sI5+tbkJdcsHZAAKFBeJlO14NVtJrDu0Yw5q9KdPZREXBfPR1oER3fv4BKxJiCHgetEqz0nJeDpy2AOy3oJtcHpGkkB9sfr3a5Qj0wnxo5DY0/VABJJHu095M3HBcDszpsDa8vFe6K9KunQBmeYDP9F9/lkOne0YxFe7mSsE/KwwYU+ucfPEdaEcd2FnY/+6sxOwyT8GIaTgkgeOs6x0LNOwCmPetObsL+1PTxOMQ66mYpIVd9NoYYA8jbYtu2Nbir/YbeERyhXDUF6OWTk7zezP0BC3IPc0dq1gllLP5PQdf/E7GqNric8L0PTbbb+x4lZTYgTelvaxnV31OzZW5uW8zQ4QSfp+XqvUIzviQk=]\}\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request QueryParams=\{code=com.comcast.xmt.core.utils.Option$None@1bcaedac, filterEmptyChannels=com.comcast.xmt.core.utils.Option$None@1bcaedac, videoFormat=com.comcast.xmt.core.utils.Option$None@1bcaedac, appName=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageSize=com.comcast.xmt.core.utils.Option$None@1bcaedac, ids=com.comcast.xmt.core.utils.Option$None@1bcaedac, userEmail=com.comcast.xmt.core.utils.Option$None@1bcaedac, isManipulated=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageNum=com.comcast.xmt.core.utils.Option$None@1bcaedac, userId=com.comcast.xmt.core.utils.Option$None@1bcaedac\}\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request FormParams=\{\}\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request PathParams=\{videoId=1927, platform=web\}\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Final Request Content=null\
+GET:/api/web/users/videos/1927 ~ util.MtHttpRequestBuilderAction ~ Controller-FinalRequest=GET /api/web/users/videos/1927\
+\{Connection=[close], Remote_Address=[127.0.0.1], Authorization=[Bearer e79215f2-0010-4a6e-bb04-35a6d4802f3d], UserAgent=[curl/7.35.0], Accept=[application/json], SessionToken=[YKtEZXwIAj8DQC/Ula5ns5zgnTyJ3F1d5z/Wlbn+65XEBXbzp95z+keE4PwYs+d16sI5+tbkJdcsHZAAKFBeJlO14NVtJrDu0Yw5q9KdPZREXBfPR1oER3fv4BKxJiCHgetEqz0nJeDpy2AOy3oJtcHpGkkB9sfr3a5Qj0wnxo5DY0/VABJJHu095M3HBcDszpsDa8vFe6K9KunQBmeYDP9F9/lkOne0YxFe7mSsE/KwwYU+ucfPEdaEcd2FnY/+6sxOwyT8GIaTgkgeOs6x0LNOwCmPetObsL+1PTxOMQ66mYpIVd9NoYYA8jbYtu2Nbir/YbeERyhXDUF6OWTk7zezP0BC3IPc0dq1gllLP5PQdf/E7GqNric8L0PTbbb+x4lZTYgTelvaxnV31OzZW5uW8zQ4QSfp+XqvUIzviQk=]\}\
+\{code=com.comcast.xmt.core.utils.Option$None@1bcaedac, filterEmptyChannels=com.comcast.xmt.core.utils.Option$None@1bcaedac, videoFormat=com.comcast.xmt.core.utils.Option$None@1bcaedac, appName=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageSize=com.comcast.xmt.core.utils.Option$None@1bcaedac, ids=com.comcast.xmt.core.utils.Option$None@1bcaedac, userEmail=com.comcast.xmt.core.utils.Option$None@1bcaedac, isManipulated=com.comcast.xmt.core.utils.Option$None@1bcaedac, pageNum=com.comcast.xmt.core.utils.Option$None@1bcaedac, userId=com.comcast.xmt.core.utils.Option$None@1bcaedac\}\
+GET:/api/web/users/videos/1927 ~ com.comcast.xmt.core.service.CryptoServiceDefaultImpl ~ MessageToDecrypt=YKtEZXwIAj8DQC/Ula5ns5zgnTyJ3F1d5z/Wlbn+65XEBXbzp95z+keE4PwYs+d16sI5+tbkJdcsHZAAKFBeJlO14NVtJrDu0Yw5q9KdPZREXBfPR1oER3fv4BKxJiCHgetEqz0nJeDpy2AOy3oJtcHpGkkB9sfr3a5Qj0wnxo5DY0/VABJJHu095M3HBcDszpsDa8vFe6K9KunQBmeYDP9F9/lkOne0YxFe7mSsE/KwwYU+ucfPEdaEcd2FnY/+6sxOwyT8GIaTgkgeOs6x0LNOwCmPetObsL+1PTxOMQ66mYpIVd9NoYYA8jbYtu2Nbir/YbeERyhXDUF6OWTk7zezP0BC3IPc0dq1gllLP5PQdf/E7GqNric8L0PTbbb+x4lZTYgTelvaxnV31OzZW5uW8zQ4QSfp+XqvUIzviQk=}

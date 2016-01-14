@@ -1,0 +1,3 @@
+# Module com.riverlog.pig.ui.Login
+# RPC service class, partial path of RPC policy file
+com.riverlog.pig.ui.client.LogJobExecution, 237A42127E17A5E31CF4E34744D79CBC.gwt.rpc
